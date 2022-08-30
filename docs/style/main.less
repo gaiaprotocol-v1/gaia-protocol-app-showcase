@@ -1,0 +1,26 @@
+@import "base.less";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin     : auto;
+    color      : white;
+    background : linear-gradient(#111112, #2a292a) fixed;
+}
+
+// components
+@import "component/shared/dialogue/alert.less";
+@import "component/shared/dialogue/confirm.less";
+@import "component/shared/dialogue/prompt.less";
+@import "component/shared/connectwalletpopup.less";
+@import "component/shared/klipqrpopup.less";
+@import "component/shared/popup.less";
+@import "component/shared/collapsible-item.less";
+@import "component/shared/menu/pc-menu.less";
+@import "component/shared/menu/mobile-menu.less";
+@import "component/shared/menu/user-menu.less";
+@import "component/bottom-nav.less";
+
+// views
+@import "view/layout.less";
+@import "view/home.less";

@@ -1,0 +1,90 @@
+.home-view {
+    >.hello {
+        color      : rgba(177, 156, 118, 1);
+        font-weight: 300;
+        font-size  : 20px;
+    }
+
+    >section {
+        margin-top: 64px;
+        overflow-x: auto;
+
+        >h6 {
+            font-size: 32px;
+        }
+
+        >.nft-item {
+            margin-top: 16px;
+
+            >img {
+                height       : 256px;
+                border-radius: 32px;
+            }
+
+            >.id {
+                margin-top: 16px;
+                font-size : 24px;
+            }
+
+            >.name {
+                margin-top : 8px;
+                font-size  : 20px;
+                font-weight: 200;
+                color      : rgba(177, 156, 118, 1);
+            }
+        }
+
+        >.inventory-title {
+            margin-bottom: 32px;
+        }
+
+        >.inventory-item {
+            display         : flex;
+            align-items     : center;
+            margin-top      : 16px;
+            padding         : 16px;
+            background-color: rgb(53, 53, 57);
+            border-radius   : 16px;
+
+            >img {
+                height: 96px;
+            }
+
+            >.content {
+                width      : 100%;
+                margin-left: 32px;
+
+                >.name {
+                    font-size: 24px;
+                }
+
+                >.from {
+                    margin-top : 4px;
+                    color      : rgb(108, 111, 120);
+                    font-weight: 300;
+                }
+
+                >.amount-container {
+                    display        : flex;
+                    justify-content: space-between;
+                    margin-top     : 8px;
+
+                    >.amount {
+                        font-size: 30px;
+                    }
+
+                    >a {
+                        display         : flex;
+                        justify-content : center;
+                        align-items     : center;
+                        background-color: rgb(232, 188, 43);
+                        color           : #000;
+                        border-radius   : 16px;
+                        min-width       : 100px;
+                        padding         : 8px;
+                    }
+                }
+            }
+        }
+    }
+}
